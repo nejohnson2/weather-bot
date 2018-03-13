@@ -12,7 +12,7 @@ def main(start_date, end_date, fpath):
 	end_date : string,
 		Should be in the format 'YYYYMMDD'
 	'''
-	apiKey = '1473eef1c8584998'
+	apiKey = 'XXXXXXXXXXXX'
 	base_url = 'http://api.wunderground.com/api/{}/history_{}/q/KNYC.json'
 
 	sdate = pd.to_datetime(start_date)
